@@ -1,0 +1,84 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# Java / Spring build output
+# =========================
+target/
+build/
+bin/
+out/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+logs/
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Spring Boot
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# =========================
+# Generated files
+# =========================
+*.jar
+*.war
+*.ear
+
+# =========================
+# Node (if frontend inside repo)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Testing
+# =========================
+coverage/
